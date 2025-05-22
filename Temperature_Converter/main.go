@@ -37,5 +37,5 @@ func main(){
 		}
 	}
 
-fmt.Printf("Coonverted Temperature:%.2f %s\n",convertedTemp,toUnit)
+fmt.Printf("Converted Temperature:%.2f %s\n",convertedTemp,toUnit)
 }
