@@ -22,4 +22,11 @@ func main(){
 		fmt.Println("messi is number:",goat)
 	}
 	//these variables can't be used outside of the if condition..
+	grades:=make(map[string]string)
+	grades["shanto"]="A"
+	grades["rahim"]="B"
+	grades["karim"]="C"
+	if exists,ok:=grades["shanto"];ok{
+		fmt.Println("grade of shanto:",exists)
+	}
 }
